@@ -1,0 +1,188 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Admin User",
+      "email": "admin@example.com",
+      "password": "adminpassword",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "name": "Aks",
+      "email": "aks@example.com",
+      "password": "1234",
+      "role": "employee"
+    },
+    {
+      "id": 3,
+      "name": "ayu",
+      "email": "ayu@example.com",
+      "password": "123",
+      "role": "employee"
+    },
+    {
+      "name": "ayush",
+      "email": "ayush@example.com",
+      "password": "password",
+      "role": "employee",
+      "id": 4
+    },
+    {
+      "name": "ayush Shukla",
+      "email": "ayushsshukla@gmail.com",
+      "password": "12345",
+      "role": "employee",
+      "id": 5
+    },
+    {
+      "name": "ayush",
+      "email": "ayush@gmail.com",
+      "password": "12345",
+      "role": "employee",
+      "id": 6
+    },
+    {
+      "name": "ayush ",
+      "email": "akshukla1234@GMAIL.COM",
+      "password": "98765",
+      "role": "employee",
+      "id": 7
+    },
+    {
+      "name": "Ayush Shukla",
+      "email": "Akshukla@gmail.com",
+      "password": "321654",
+      "role": "employee",
+      "id": 8
+    }
+  ],
+  "scrums": [
+    {
+      "id": 1,
+      "name": "Scrum Team A"
+    },
+    {
+      "id": 2,
+      "name": "Scrum Team B"
+    },
+    {
+      "name": "Scrum Team C",
+      "id": 3
+    },
+    {
+      "name": "Scrum Team D",
+      "id": 4
+    },
+    {
+      "name": "ScrumTeam E",
+      "id": 5
+    },
+    {
+      "name": "Scrum Team F",
+      "id": 6
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Task One",
+      "description": "Description for Task One",
+      "status": "Done",
+      "scrumId": 1,
+      "assignedTo": 2,
+      "history": [
+        {
+          "status": "To Do",
+          "date": "2024-07-01"
+        },
+        {
+          "status": "In Progress",
+          "date": "2024-08-26"
+        },
+        {
+          "status": "Done",
+          "date": "2024-08-26"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Task Two",
+      "description": "Description for Task Two",
+      "status": "Done",
+      "scrumId": 2,
+      "assignedTo": 3,
+      "history": [
+        {
+          "status": "To Do",
+          "date": "2024-07-02"
+        },
+        {
+          "status": "In Progress",
+          "date": "2024-07-03"
+        },
+        {
+          "status": "Done",
+          "date": "2025-03-20"
+        }
+      ]
+    },
+    {
+      "title": "Task 3",
+      "description": "Description for Task 3",
+      "status": "In Progress",
+      "scrumId": 3,
+      "assignedTo": 3,
+      "history": [
+        {
+          "status": "In Progress",
+          "date": "2024-08-26"
+        }
+      ],
+      "id": 3
+    },
+    {
+      "title": "Developer",
+      "description": "task",
+      "status": "To Do",
+      "scrumId": 4,
+      "assignedTo": "5",
+      "history": [
+        {
+          "status": "To Do",
+          "date": "2025-03-20"
+        }
+      ],
+      "id": 4
+    },
+    {
+      "title": "Developer",
+      "description": "tester",
+      "status": "To Do",
+      "scrumId": 5,
+      "assignedTo": "7",
+      "history": [
+        {
+          "status": "To Do",
+          "date": "2025-03-20"
+        }
+      ],
+      "id": 5
+    },
+    {
+      "title": "Developer",
+      "description": "Tester",
+      "status": "To Do",
+      "scrumId": 6,
+      "assignedTo": "2",
+      "history": [
+        {
+          "status": "To Do",
+          "date": "2025-03-21"
+        }
+      ],
+      "id": 6
+    }
+  ]
+}
